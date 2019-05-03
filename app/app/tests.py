@@ -1,6 +1,6 @@
 from django.test import TestCase
 
-from .calc import add
+from .calc import add, subtract
 
 
 class CaclTest(TestCase):
@@ -10,3 +10,10 @@ class CaclTest(TestCase):
         :return:
         """
         self.assertEqual(add(3, 4), 7)
+
+    def test_subtract_numbers(self):
+        """
+        Test subtract two numbers
+        :return:
+        """
+        self.assertEqual(subtract(3, 10), 7)
