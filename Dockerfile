@@ -1,4 +1,4 @@
-FROM alpine:3.9
+FROM python:3
 MAINTAINER Tran Van
 
 ENV PYTHONUNBUFFERED 1
